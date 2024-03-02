@@ -12,6 +12,9 @@ import {
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
+import ShowSolution from "./ShowSolution"
+
+import PythonCompiler from "./Interface"
 import { Homescreen } from "./Homescreen/Homescreen"
 
 export const App = () => (
@@ -22,11 +25,13 @@ export const App = () => (
         <Homescreen></Homescreen>
         <ColorModeSwitcher justifySelf="flex-end" />
         <VStack spacing={8}>
-          <Logo h="40vmin" pointerEvents="none" />
+          {/* <Logo h="40vmin" pointerEvents="none" /> */}
           <Text>
-            Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
+            {/* Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload. */}
           </Text>
-          <Link
+          <ShowSolution></ShowSolution>
+          <PythonCompiler></PythonCompiler>
+          {/* <Link
             color="teal.500"
             href="https://chakra-ui.com"
             fontSize="2xl"
@@ -34,7 +39,7 @@ export const App = () => (
             rel="noopener noreferrer"
           >
             Learn Chakra
-          </Link>
+          </Link> */}
         </VStack>
       </Grid>
 
