@@ -1,0 +1,31 @@
+.navbar {
+    height: 5rem;
+    width: 100 vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+
+.destopMenuListItem{
+    margin: 1.5rem;
+    color: #b98282;
+    cursor: pointer;
+}
+
+.destopMenuListItem:hover{
+    color: white;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid white;
+}
+.active{
+    color: white;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid white;
+}
