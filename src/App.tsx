@@ -10,7 +10,7 @@ import {
   Link,
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
-import Calculator from "./Calculator"
+// import Calculator from "./Calculator"
 import PythonRunner from "./PythonRunner"
 import ShowSolution from "./ShowSolution"
 import { Homescreen } from "./Homescreen/Homescreen"
