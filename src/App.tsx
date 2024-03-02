@@ -4,17 +4,13 @@ import {
   ChakraProvider,
   Box,
   Text,
-  Link,
   VStack,
-  Code,
   Grid,
   theme,
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
-import { Logo } from "./Logo"
 import ShowSolution from "./ShowSolution"
 
-import PythonCompiler from "./Interface"
 import { Homescreen } from "./Homescreen/Homescreen"
 
 export const App = () => (
@@ -30,7 +26,6 @@ export const App = () => (
             {/* Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload. */}
           </Text>
           <ShowSolution></ShowSolution>
-          <PythonCompiler></PythonCompiler>
           {/* <Link
             color="teal.500"
             href="https://chakra-ui.com"
