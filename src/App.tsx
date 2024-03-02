@@ -11,6 +11,8 @@ import {
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
+import Calculator from "./Calculator"
+import PythonRunner from "./PythonRunner"
 
 export const App = () => (
   <ChakraProvider theme={theme}>
@@ -31,8 +33,10 @@ export const App = () => (
           >
             Learn Chakra
           </Link>
+          <Calculator></Calculator>
         </VStack>
       </Grid>
+      <PythonRunner />
     </Box>
   </ChakraProvider>
 )
