@@ -1,29 +1,33 @@
 import * as React from "react"
+import "./App.css"
 import {
   ChakraProvider,
   Box,
   Text,
-  Link,
   VStack,
-  Code,
   Grid,
   theme,
+  Link,
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
-import { Logo } from "./Logo"
 import Calculator from "./Calculator"
 import PythonRunner from "./PythonRunner"
+import ShowSolution from "./ShowSolution"
+import { Homescreen } from "./Homescreen/Homescreen"
 
 export const App = () => (
-  <ChakraProvider theme={theme}>
+  <div className="App">
+  <ChakraProvider theme={theme} >
     <Box textAlign="center" fontSize="xl">
       <Grid minH="100vh" p={3}>
+        <Homescreen></Homescreen>
         <ColorModeSwitcher justifySelf="flex-end" />
         <VStack spacing={8}>
-          <Logo h="40vmin" pointerEvents="none" />
+          {/* <Logo h="40vmin" pointerEvents="none" /> */}
           <Text>
-            Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
+            {/* Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload. */}
           </Text>
+          <ShowSolution></ShowSolution>
           <Link
             color="teal.500"
             href="https://chakra-ui.com"
@@ -33,10 +37,11 @@ export const App = () => (
           >
             Learn Chakra
           </Link>
-          <Calculator></Calculator>
+          {/* <Calculator></Calculator> */}
         </VStack>
       </Grid>
       <PythonRunner />
     </Box>
   </ChakraProvider>
+  </div>
 )
