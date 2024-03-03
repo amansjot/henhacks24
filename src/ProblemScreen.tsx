@@ -1,16 +1,21 @@
 import React from "react";
-import {
-  VStack,
-  Text,
-  HStack,
-  Image,
-  Box,
-  Stack,
-} from "@chakra-ui/react";
+import { VStack, Text, HStack, Image, Box, Stack } from "@chakra-ui/react";
 import PythonRunner from "./PythonRunner";
 import "./Homescreen.css";
+import ShowSolution from "./ShowSolution";
 
 const ProblemScreen: React.FC = () => {
+  const level = localStorage.getItem("level");
+  let source = "";
+
+  if (level === "Elementary") {
+    source = "images/addition.png";
+  } else if (level === "Middle") {
+    source = "images/graphing.png";
+  } else if (level === "High") {
+    source = "images/high.png";
+  }
+
   return (
     <div>
       <VStack mt="90px" spacing={8}>
@@ -22,12 +27,12 @@ const ProblemScreen: React.FC = () => {
           paddingTop={""}
         >
           <Box w="40%" height="750px">
-            <Text>Problem</Text>
+            <Text>{level} Problem</Text>
             <Image
               m="0 auto"
               height="500px"
               p="20px"
-              src="images/addition.png"
+              src={source}
               alt="Problem"
             />
           </Box>
@@ -37,6 +42,7 @@ const ProblemScreen: React.FC = () => {
           </Box>
         </HStack>
         <Stack p="5" pb="10">
+          <ShowSolution />
         </Stack>
       </VStack>
     </div>
