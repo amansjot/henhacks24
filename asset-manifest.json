@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/henhacks24/static/css/main.33de1cc4.css",
-    "main.js": "/henhacks24/static/js/main.facda177.js",
-    "static/js/453.ed3810f9.chunk.js": "/henhacks24/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/henhacks24/index.html",
-    "main.33de1cc4.css.map": "/henhacks24/static/css/main.33de1cc4.css.map",
-    "main.facda177.js.map": "/henhacks24/static/js/main.facda177.js.map",
-    "453.ed3810f9.chunk.js.map": "/henhacks24/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "https://mathbridge.study/static/css/main.33de1cc4.css",
+    "main.js": "https://mathbridge.study/static/js/main.ccff13da.js",
+    "static/js/453.ed3810f9.chunk.js": "https://mathbridge.study/static/js/453.ed3810f9.chunk.js",
+    "index.html": "https://mathbridge.study/index.html",
+    "main.33de1cc4.css.map": "https://mathbridge.study/static/css/main.33de1cc4.css.map",
+    "main.ccff13da.js.map": "https://mathbridge.study/static/js/main.ccff13da.js.map",
+    "453.ed3810f9.chunk.js.map": "https://mathbridge.study/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33de1cc4.css",
-    "static/js/main.facda177.js"
+    "static/js/main.ccff13da.js"
   ]
 }
