@@ -15,7 +15,7 @@ import {
 import { Button, Box, Image } from "@chakra-ui/react";
 import { Heading, Divider, Card, CardBody, Text } from "@chakra-ui/react";
 import { useState } from "react";
-import { ColorModeSwitcher } from "../ColorModeSwitcher";
+import { ColorModeSwitcher } from "./ColorModeSwitcher";
 
 
 export function Elementary(): JSX.Element {
