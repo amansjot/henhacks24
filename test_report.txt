@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (203 ms)
+  ✕ renders learn react link (206 ms)
 
   ● renders learn react link
 
@@ -192,7 +192,7 @@ File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line
 All files              |    5.48 |     4.28 |    4.87 |    6.16 |                   
  App.tsx               |   33.33 |       50 |      25 |   33.33 | 20-21,38-41,51-79 
  ColorModeSwitcher.tsx |      20 |      100 |       0 |      20 | 13-17             
- Elementary.tsx        |       0 |      100 |       0 |       0 | 23-465            
+ Elementary.tsx        |       0 |      100 |       0 |       0 | 23-466            
  ProblemScreen.tsx     |      10 |        0 |       0 |      10 | 8-19              
  PythonRunner.tsx      |    2.08 |        0 |       0 |    2.12 | 16-124            
  ShowSolution.tsx      |    7.69 |        0 |       0 |    7.69 | 5-37              
@@ -204,5 +204,5 @@ All files              |    5.48 |     4.28 |    4.87 |    6.16 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.555 s
+Time:        3.59 s
 Ran all test suites.
