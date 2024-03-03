@@ -23,11 +23,11 @@ export const App = () => {
   }
 
   function showProblem(): JSX.Element{
-    if (level == "Elementary") {
+    if (level === "Elementary") {
       return (<Elementary></Elementary>);
-  } else if (level == "Middle"){
+  } else if (level === "Middle"){
       return (<Middle></Middle>);
-  } else if (level == "High"){
+  } else if (level === "High"){
     return(<High></High>);
   }else {
     return (<div>

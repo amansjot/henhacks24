@@ -8,7 +8,6 @@ import {
   Stack,
   Button,
 } from "@chakra-ui/react";
-import ShowSolution from "./ShowSolution";
 import PythonRunner from "./PythonRunner";
 
 const Middle: React.FC = () => {
