@@ -186,22 +186,23 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
---------------------|---------|----------|---------|---------|-------------------
-File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
---------------------|---------|----------|---------|---------|-------------------
-All files           |     8.9 |     4.28 |    9.09 |    9.02 |                   
- App.tsx            |   33.33 |       50 |      25 |   33.33 | 20-21,38-41,51-79 
- Elementary.tsx     |      50 |      100 |       0 |      50 | 4                 
- ProblemScreen.tsx  |      10 |        0 |       0 |      10 | 8-19              
- PythonRunner.tsx   |    2.08 |        0 |       0 |    2.12 | 16-124            
- ShowSolution.tsx   |    7.69 |        0 |       0 |    7.69 | 5-37              
- index.tsx          |       0 |        0 |     100 |       0 | 9-28              
- reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- serviceWorker.ts   |       0 |        0 |       0 |       0 | 13-143            
- test-utils.tsx     |     100 |      100 |     100 |     100 |                   
---------------------|---------|----------|---------|---------|-------------------
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |    5.48 |     4.28 |    4.87 |    6.16 |                   
+ App.tsx               |   33.33 |       50 |      25 |   33.33 | 20-21,38-41,51-79 
+ ColorModeSwitcher.tsx |      20 |      100 |       0 |      20 | 13-17             
+ Elementary.tsx        |       0 |      100 |       0 |       0 | 23-468            
+ ProblemScreen.tsx     |      10 |        0 |       0 |      10 | 8-19              
+ PythonRunner.tsx      |    2.08 |        0 |       0 |    2.12 | 16-124            
+ ShowSolution.tsx      |    7.69 |        0 |       0 |    7.69 | 5-37              
+ index.tsx             |       0 |        0 |     100 |       0 | 9-28              
+ reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
+ serviceWorker.ts      |       0 |        0 |       0 |       0 | 13-143            
+ test-utils.tsx        |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.066 s
+Time:        3.564 s
 Ran all test suites.
