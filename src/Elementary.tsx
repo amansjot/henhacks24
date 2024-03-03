@@ -12,7 +12,7 @@ import {
 import {
     SimpleGrid,
 } from '@chakra-ui/react'
-import { Button, Box, Image, Text } from "@chakra-ui/react";
+import { Button, Box, Image } from "@chakra-ui/react";
 import { Heading, Divider, Card, CardBody, Text } from "@chakra-ui/react";
 import { useState } from "react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
