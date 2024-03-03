@@ -94,9 +94,6 @@ export function Elementary(): JSX.Element {
 
     return (
         <section id="elementary">
-            <Heading className="header">
-                Elementary
-            </Heading>
             <ColorModeSwitcher justifySelf="flex-end"/>
             <Heading className="codeheader">Integer Addition</Heading>
             <section id="addition" className="cards">
