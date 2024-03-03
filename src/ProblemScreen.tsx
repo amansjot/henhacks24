@@ -7,10 +7,8 @@ import {
   Box,
   Stack,
 } from "@chakra-ui/react";
-import ShowSolution from "./ShowSolution";
 import PythonRunner from "./PythonRunner";
 import "./Homescreen.css";
-import {Link} from 'react-scroll';
 
 const ProblemScreen: React.FC = () => {
   return (
