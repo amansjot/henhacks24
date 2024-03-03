@@ -12,7 +12,7 @@ import {
 import {
     SimpleGrid,
 } from '@chakra-ui/react'
-import { Button, Box, Image } from "@chakra-ui/react";
+import { Button, Box, Image, Text } from "@chakra-ui/react";
 import { Heading, Divider, Card, CardBody, Text } from "@chakra-ui/react";
 import { useState } from "react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
@@ -94,6 +94,7 @@ export function Elementary(): JSX.Element {
 
     return (
         <section id="elementary">
+            <Text fontSize='2xl'>General coding examples for basic mathematical operation.</Text>
             <ColorModeSwitcher justifySelf="flex-end"/>
             <Heading className="codeheader">Integer Addition</Heading>
             <section id="addition" className="cards">
@@ -186,7 +187,7 @@ export function Elementary(): JSX.Element {
                                             <ModalHeader>Recursion Example:</ModalHeader>
                                             <ModalCloseButton />
                                             <ModalBody>
-                                                <Image src="" alt="recursion ex"></Image>
+                                                <Image src="https://i.imgur.com/5u6t8Mw.png" alt="recursion ex"></Image>
                                             </ModalBody>
 
                                             <ModalFooter>
@@ -209,7 +210,7 @@ export function Elementary(): JSX.Element {
                                             <ModalHeader>For Loop Example:</ModalHeader>
                                             <ModalCloseButton />
                                             <ModalBody>
-                                                <Image src="" alt="for loop ex"></Image>
+                                                <Image src="https://i.imgur.com/W1zAtyI.png" alt="for loop ex"></Image>
                                             </ModalBody>
 
                                             <ModalFooter>
@@ -252,7 +253,7 @@ export function Elementary(): JSX.Element {
                                             <ModalHeader>Recursion Example:</ModalHeader>
                                             <ModalCloseButton />
                                             <ModalBody>
-                                                <Image src="" alt="recursion ex"></Image>
+                                                <Image src="https://i.imgur.com/oUq2hF5.png" alt="recursion ex"></Image>
                                             </ModalBody>
 
                                             <ModalFooter>
@@ -275,7 +276,7 @@ export function Elementary(): JSX.Element {
                                             <ModalHeader>For Loop Example:</ModalHeader>
                                             <ModalCloseButton />
                                             <ModalBody>
-                                                <Image src="" alt="for loop ex"></Image>
+                                                <Image src="https://i.imgur.com/uhA3Jsj.png" alt="for loop ex"></Image>
                                             </ModalBody>
 
                                             <ModalFooter>
@@ -318,7 +319,7 @@ export function Elementary(): JSX.Element {
                                             <ModalHeader>Recursion Example:</ModalHeader>
                                             <ModalCloseButton />
                                             <ModalBody>
-                                                <Image src="" alt="recursion ex"></Image>
+                                                <Image src="https://i.imgur.com/gvmQLBF.png" alt="recursion ex"></Image>
                                             </ModalBody>
 
                                             <ModalFooter>
@@ -341,7 +342,7 @@ export function Elementary(): JSX.Element {
                                             <ModalHeader>For Loop Example:</ModalHeader>
                                             <ModalCloseButton />
                                             <ModalBody>
-                                                <Image src="" alt="for loop ex"></Image>
+                                                <Image src="https://i.imgur.com/PFXJYBt.png" alt="for loop ex"></Image>
                                             </ModalBody>
                                             <ModalFooter>
                                                 <Button colorScheme='blue' mr={3} onClick={closeModal8}>
@@ -383,7 +384,7 @@ export function Elementary(): JSX.Element {
                                             <ModalHeader>Recursion Example:</ModalHeader>
                                             <ModalCloseButton />
                                             <ModalBody>
-                                                <Image src="" alt="recursion ex"></Image>
+                                                <Image src="https://i.imgur.com/X687vhx.png" alt="recursion ex"></Image>
                                             </ModalBody>
 
                                             <ModalFooter>
@@ -406,7 +407,7 @@ export function Elementary(): JSX.Element {
                                             <ModalHeader>For Loop Example:</ModalHeader>
                                             <ModalCloseButton />
                                             <ModalBody>
-                                                <Image src="" alt="for loop ex"></Image>
+                                                <Image src="https://i.imgur.com/AruRlSk.png" alt="for loop ex"></Image>
                                             </ModalBody>
 
                                             <ModalFooter>
@@ -448,7 +449,7 @@ export function Elementary(): JSX.Element {
                                             <ModalHeader>Recursion Example:</ModalHeader>
                                             <ModalCloseButton />
                                             <ModalBody>
-                                                <Image src="" alt="recursion ex"></Image>
+                                                <Image src="https://i.imgur.com/V8Ynt5H.png" alt="recursion ex"></Image>
                                             </ModalBody>
 
                                             <ModalFooter>
@@ -471,7 +472,7 @@ export function Elementary(): JSX.Element {
                                             <ModalHeader>For Loop Example:</ModalHeader>
                                             <ModalCloseButton />
                                             <ModalBody>
-                                                <Image src="" alt="for loop ex"></Image>
+                                                <Image src="https://i.imgur.com/zNsjwZa.png" alt="for loop ex"></Image>
                                             </ModalBody>
 
                                             <ModalFooter>
