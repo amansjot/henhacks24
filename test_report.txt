@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (199 ms)
+  ✕ renders learn react link (206 ms)
 
   ● renders learn react link
 
@@ -21,7 +21,7 @@ FAIL src/App.test.tsx
             [33mclass[39m=[32m"css-12hvf5p"[39m
           [36m>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"css-1x4ekbu"[39m
+              [33mclass[39m=[32m"css-fhxpbg"[39m
             [36m>[39m
               [36m<div[39m
                 [33mclass[39m=[32m"desktopMenu"[39m
@@ -32,17 +32,22 @@ FAIL src/App.test.tsx
                   [0mHome[0m
                 [36m</a>[39m
                 [36m<a[39m
-                  [33mclass[39m=[32m"chakra-link destopMenuListItem css-o6kayt"[39m
+                  [33mclass[39m=[32m"chakra-link destopMenuListItem css-v74jvl"[39m
+                [36m>[39m
+                  [0mLearn[0m
+                [36m</a>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"chakra-link destopMenuListItem css-v74jvl"[39m
                 [36m>[39m
                   [0mElementary[0m
                 [36m</a>[39m
                 [36m<a[39m
-                  [33mclass[39m=[32m"chakra-link destopMenuListItem css-o6kayt"[39m
+                  [33mclass[39m=[32m"chakra-link destopMenuListItem css-v74jvl"[39m
                 [36m>[39m
                   [0mMiddle School[0m
                 [36m</a>[39m
                 [36m<a[39m
-                  [33mclass[39m=[32m"chakra-link destopMenuListItem css-o6kayt"[39m
+                  [33mclass[39m=[32m"chakra-link destopMenuListItem css-v74jvl"[39m
                 [36m>[39m
                   [0mHigh School[0m
                 [36m</a>[39m
@@ -181,24 +186,22 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
---------------------|---------|----------|---------|---------|----------------------
-File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s    
---------------------|---------|----------|---------|---------|----------------------
-All files           |   10.63 |     7.57 |    8.69 |   10.79 |                      
- App.tsx            |   43.75 |     62.5 |   28.57 |   43.75 | 21-22,27,29,31,53-71 
- Elementary.tsx     |      25 |        0 |       0 |      25 | 14-19                
- High.tsx           |      25 |        0 |       0 |      25 | 14-19                
- Logo.tsx           |       0 |        0 |       0 |       0 | 11-23                
- Middle.tsx         |      25 |        0 |       0 |      25 | 14-19                
- ProblemScreen.tsx  |       0 |      100 |       0 |       0 | 13-14                
- PythonRunner.tsx   |    2.08 |        0 |       0 |    2.12 | 16-124               
- index.tsx          |       0 |        0 |     100 |       0 | 9-28                 
- reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10                 
- serviceWorker.ts   |       0 |        0 |       0 |       0 | 13-143               
- test-utils.tsx     |     100 |      100 |     100 |     100 |                      
---------------------|---------|----------|---------|---------|----------------------
+--------------------|---------|----------|---------|---------|-------------------
+File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+--------------------|---------|----------|---------|---------|-------------------
+All files           |     8.9 |     4.28 |    9.09 |    9.02 |                   
+ App.tsx            |   33.33 |       50 |      25 |   33.33 | 20-21,38-41,51-79 
+ Elementary.tsx     |      50 |      100 |       0 |      50 | 4                 
+ ProblemScreen.tsx  |      10 |        0 |       0 |      10 | 8-19              
+ PythonRunner.tsx   |    2.08 |        0 |       0 |    2.12 | 16-124            
+ ShowSolution.tsx   |    7.69 |        0 |       0 |    7.69 | 5-37              
+ index.tsx          |       0 |        0 |     100 |       0 | 9-28              
+ reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
+ serviceWorker.ts   |       0 |        0 |       0 |       0 | 13-143            
+ test-utils.tsx     |     100 |      100 |     100 |     100 |                   
+--------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.172 s
+Time:        3.245 s
 Ran all test suites.
