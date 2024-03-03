@@ -1,0 +1,44 @@
+* {
+    font-family: Georgia, serif  !important; 
+}
+
+#elementary{
+    margin: 0 auto;
+    height: 260vh;
+    width: 97%;
+    max-width: 75rem;
+    overflow: hidden;
+    position: relative;
+    top: 4rem;
+    font-family: Georgia, serif; 
+}
+
+.header{
+    align-items: center;
+    padding-bottom: 1rem;
+    font-family: Georgia, serif; 
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.menu{
+   left: 0;
+   position: absolute;
+   padding: 2rem 2rem;
+
+}
+
+.codeheader{
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2.5rem;
+    position: relative;
+}
+.cards{
+    padding: 3rem;
+}
+
+.codeCardHeader{
+    padding-bottom: .75rem;
+}
+
