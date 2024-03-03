@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (204 ms)
+  ✕ renders learn react link (209 ms)
 
   ● renders learn react link
 
@@ -65,7 +65,7 @@ FAIL src/App.test.tsx
                   [33msrc[39m=[32m"images/logo.png"[39m
                 [36m/>[39m
                 [36m<br />[39m
-                [0m MathBridge is a online educational platform designed to cater to students of all backgrounds and ages, offering resources to enhance understanding and proficiency in mathematics. Our platform is dedicated to introducing fundamental mathematical concepts in an engaging and accessible manner, leveraging the power of Python programming to showcase its advantages over conventional calculators.[0m
+                [0m MathBridge is an online educational platform designed to cater to students of all backgrounds and ages, offering resources to enhance understanding and proficiency in mathematics. Our platform is dedicated to introducing fundamental mathematical concepts in an engaging and accessible manner, leveraging the power of Python programming to showcase its advantages over conventional calculators.[0m
               [36m</div>[39m
             [36m</div>[39m
           [36m</div>[39m
@@ -209,5 +209,5 @@ All files              |    5.41 |     4.16 |    4.81 |    6.07 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.56 s
+Time:        3.527 s
 Ran all test suites.
