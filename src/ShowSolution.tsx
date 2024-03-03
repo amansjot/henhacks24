@@ -13,7 +13,7 @@ const ShowSolution: React.FC = () => {
 
     return (
         <div>
-            <Button onClick={flipReveal}>Show Solution</Button>
+            <Button mb="5" onClick={flipReveal}>Show Solution</Button>
             {revealed && <div>ADD FOR LOOP HERE</div>}
         </div>
     );

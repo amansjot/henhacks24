@@ -1,12 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  Button,
-  VStack,
-  Box,
-  Text,
-  Input,
-  HStack,
-} from "@chakra-ui/react";
+import { Button, VStack, Box, Text, Input, HStack } from "@chakra-ui/react";
 import AceEditor from "react-ace";
 
 // Import the necessary scripts for Python mode and a theme
@@ -48,6 +41,7 @@ const PythonRunner: React.FC = () => {
     try {
       if (!pyodide) return;
       await pyodide.loadPackage("numpy");
+      await pyodide.loadPackage("math");
       await pyodide.loadPackage("matplotlib");
       const output = await pyodide.runPythonAsync(code);
       // Check if 'output' is not 'undefined' before calling 'toString()'
@@ -61,7 +55,8 @@ const PythonRunner: React.FC = () => {
       // Handle errors as previously discussed
       if (error instanceof Error) {
         console.error(error.message);
-        setOutput(`Error executing Python code: ${error.message}`);
+        // setOutput(`Error executing Python code: ${error.message}`);
+        setOutput(`Error executing Python code. Try again.`);
       } else {
         console.error(error);
         setOutput("Error executing Python code.");
@@ -82,12 +77,23 @@ const PythonRunner: React.FC = () => {
   };
 
   function addPower() {
-    setCode(
-      code +
-        `
+    if (!code.includes("import math")) {
+      setCode(
+        `import math
+` +
+          code +
+          `
 math.pow(${pow1}, ${pow2})
 `
-    );
+      );
+    } else {
+      setCode(
+        code +
+          `
+math.pow(${pow1}, ${pow2})
+`
+      );
+    }
   }
 
   const handleLoop1Change = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -95,7 +101,7 @@ math.pow(${pow1}, ${pow2})
   };
 
   const handleLoop2Change = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setLoop2(Number(event.target.value));
+    setLoop2(Number(event.target.value) + 1);
   };
 
   function addLoop() {
@@ -103,13 +109,52 @@ math.pow(${pow1}, ${pow2})
       code +
         `
         
-for _ in range(${loop1}, ${loop2}):
+for num in range(${loop1}, ${loop2}):
   `
     );
   }
 
   return (
-    <VStack spacing={4}>
+    <VStack spacing={4} w="100%" h="700px">
+      <Box width="500px" position="relative">
+        <AceEditor
+          mode="python"
+          theme="monokai"
+          name="aceEditor"
+          onChange={(e) => setCode(e)}
+          fontSize={14}
+          showPrintMargin={true}
+          showGutter={true}
+          highlightActiveLine={true}
+          value={code}
+          width="500px"
+          setOptions={{
+            enableBasicAutocompletion: false,
+            enableLiveAutocompletion: false,
+            enableSnippets: false,
+            showLineNumbers: true,
+            tabSize: 2,
+          }}
+          style={{ width: "100%", height: "400px", marginBottom: 0 }}
+        />
+        <Box w="100%" mt="-10px" border="1px solid darkgrey">
+          <Box p={4} textAlign="left" height="120px" bg="gray.300">
+            {output}
+          </Box>
+        </Box>
+        <Button
+          p="10px 25px"
+          m="10px"
+          colorScheme="blue"
+          onClick={runPythonCode}
+          isDisabled={loading}
+          position="absolute"
+          top="5px"
+          right="5px"
+        >
+          Run Code
+        </Button>
+      </Box>
       <HStack>
         <Text>Power:</Text>
         <Input type="number" onChange={handlePow1Change} w="50px" />
@@ -128,34 +173,6 @@ for _ in range(${loop1}, ${loop2}):
           Go
         </Button>
       </HStack>
-      <AceEditor
-        mode="python"
-        theme="monokai"
-        name="UNIQUE_ID_OF_DIV"
-        onChange={(e) => setCode(e)}
-        fontSize={14}
-        showPrintMargin={true}
-        showGutter={true}
-        highlightActiveLine={true}
-        value={code}
-        setOptions={{
-          enableBasicAutocompletion: false,
-          enableLiveAutocompletion: false,
-          enableSnippets: false,
-          showLineNumbers: true,
-          tabSize: 2,
-        }}
-        style={{ width: "100%", height: "400px" }}
-      />
-      <Button colorScheme="blue" onClick={runPythonCode} isDisabled={loading}>
-        Run Code
-      </Button>
-      <Box w="100%">
-        <Text>Output:</Text>
-        <Box p={4} bg="gray.100">
-          {output}
-        </Box>
-      </Box>
     </VStack>
   );
 };

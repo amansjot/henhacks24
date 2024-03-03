@@ -1,15 +1,14 @@
 .navbar {
     height: 5rem;
-    width: 100 vw;
-    max-width: 75rem;
-    margin: 0 auto;
-    padding: 1rem 1rem;
+    width: 100vw;
+    padding: 1.5rem 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    position: sticky;
+    justify-content: center;
+    position: fixed;
     top: 0;
-    z-index: 3;
+    z-index: 9999;
+    background-color: #f4cccc;
 }
 
 
