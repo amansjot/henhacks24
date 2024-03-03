@@ -37,7 +37,14 @@ export const App = () => {
       );
     } else if (level === "Learn") {
       return (<Elementary />);
-    } else {
+    } else if (level === "Chat"){
+      return (
+        <div> 
+          <Image m="0 auto" height="900px"alt="" src="images/chat.png" />
+        </div>
+      )
+    }
+    else {
       return (<ProblemScreen />);
     }
   }
@@ -80,6 +87,13 @@ export const App = () => {
                 className="destopMenuListItem"
               >
                 High School
+              </Link>
+              <Link
+                ml="60px"
+                onClick={() => handleLevelChange("Chat")}
+                className="destopMenuListItem"
+              >
+                Discussion
               </Link>
             </div>
 
