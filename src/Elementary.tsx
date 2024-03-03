@@ -94,7 +94,7 @@ export function Elementary(): JSX.Element {
 
     return (
         <section id="elementary">
-            <Text fontSize='2xl'>General coding examples for basic mathematical operation.</Text>
+            <Text fontSize='2xl'>General coding examples for basic mathematical operations.</Text>
             <ColorModeSwitcher justifySelf="flex-end"/>
             <Heading className="codeheader">Integer Addition</Heading>
             <section id="addition" className="cards">
