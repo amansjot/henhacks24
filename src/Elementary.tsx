@@ -493,4 +493,6 @@ export function Elementary(): JSX.Element {
         </section>
     );
 
-}
+};
+
+export default Elementary;
