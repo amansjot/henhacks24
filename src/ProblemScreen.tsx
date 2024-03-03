@@ -29,7 +29,7 @@ const ProblemScreen: React.FC = () => {
               m="0 auto"
               height="500px"
               p="20px"
-              src="../images/addition.png"
+              src="images/addition.png"
               alt="Problem"
             />
           </Box>
