@@ -27,7 +27,7 @@ export const App = () => {
         <div>
           <br></br>
           <Image m="0 auto" width="300px" alt="" src="images/logo.png" />
-          <br></br> MathBridge is a online educational platform designed to
+          <br></br> MathBridge is an online educational platform designed to
           cater to students of all backgrounds and ages, offering resources to
           enhance understanding and proficiency in mathematics. Our platform is
           dedicated to introducing fundamental mathematical concepts in an
