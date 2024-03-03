@@ -2,233 +2,48 @@
 > my-app@0.1.0 test
 > react-scripts test --coverage
 
-FAIL src/App.test.tsx
-  ✕ renders learn react link (220 ms)
+/home/runner/work/henhacks24/henhacks24/src/PythonRunner.tsx:1167
+        (cov_2m6gl59h6m().s[13]++, await window.loadPyodide({
+                                                ^
 
-  ● renders learn react link
-
-    TestingLibraryElementError: Unable to find an element with the text: /learn chakra/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
-
-    Ignored nodes: comments, script, style
-    [36m<body[39m
-      [33mclass[39m=[32m"chakra-ui-light"[39m
-    [36m>[39m
-      [36m<div>[39m
-        [36m<div[39m
-          [33mclass[39m=[32m"App"[39m
-        [36m>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"css-12hvf5p"[39m
-          [36m>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"css-1x4ekbu"[39m
-            [36m>[39m
-              [36m<nav[39m
-                [33mclass[39m=[32m"navbar"[39m
-              [36m>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"desktopMenu"[39m
-                [36m>[39m
-                  [36m<a[39m
-                    [33mclass[39m=[32m"destopMenuListItem"[39m
-                  [36m>[39m
-                    [0mHome[0m
-                  [36m</a>[39m
-                  [36m<a[39m
-                    [33mclass[39m=[32m"destopMenuListItem"[39m
-                  [36m>[39m
-                    [0mPre-K/Kindergarten[0m
-                  [36m</a>[39m
-                  [36m<a[39m
-                    [33mclass[39m=[32m"destopMenuListItem"[39m
-                  [36m>[39m
-                    [0mElementary[0m
-                  [36m</a>[39m
-                  [36m<a[39m
-                    [33mclass[39m=[32m"destopMenuListItem"[39m
-                  [36m>[39m
-                    [0mHighschool[0m
-                  [36m</a>[39m
-                [36m</div>[39m
-              [36m</nav>[39m
-              [36m<button[39m
-                [33maria-label[39m=[32m"Switch to dark mode"[39m
-                [33mclass[39m=[32m"chakra-button css-1qy5bo6"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [36m<svg[39m
-                  [33maria-hidden[39m=[32m"true"[39m
-                  [33mfill[39m=[32m"currentColor"[39m
-                  [33mfocusable[39m=[32m"false"[39m
-                  [33mheight[39m=[32m"1em"[39m
-                  [33mstroke[39m=[32m"currentColor"[39m
-                  [33mstroke-width[39m=[32m"0"[39m
-                  [33mviewBox[39m=[32m"0 0 512 512"[39m
-                  [33mwidth[39m=[32m"1em"[39m
-                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
-                [36m>[39m
-                  [36m<path[39m
-                    [33md[39m=[32m"M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"[39m
-                  [36m/>[39m
-                [36m</svg>[39m
-              [36m</button>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"chakra-stack css-abvxnf"[39m
-              [36m>[39m
-                [36m<p[39m
-                  [33mclass[39m=[32m"chakra-text css-0"[39m
-                [36m/>[39m
-                [36m<div>[39m
-                  [36m<button[39m
-                    [33mclass[39m=[32m"chakra-button css-ez23ye"[39m
-                    [33mtype[39m=[32m"button"[39m
-                  [36m>[39m
-                    [0mShow Solution[0m
-                  [36m</button>[39m
-                [36m</div>[39m
-              [36m</div>[39m
-            [36m</div>[39m
-          [36m</div>[39m
-          [36m<span[39m
-            [33mhidden[39m=[32m""[39m
-            [33mid[39m=[32m"__chakra_env"[39m
-          [36m/>[39m
-        [36m</div>[39m
-        [36m<span[39m
-          [33mhidden[39m=[32m""[39m
-          [33mid[39m=[32m"__chakra_env"[39m
-        [36m/>[39m
-      [36m</div>[39m
-      [36m<div[39m
-        [33mclass[39m=[32m"chakra-portal"[39m
-      [36m>[39m
-        [36m<div[39m
-          [33maria-label[39m=[32m"Notifications-top"[39m
-          [33maria-live[39m=[32m"polite"[39m
-          [33mid[39m=[32m"chakra-toast-manager-top"[39m
-          [33mrole[39m=[32m"region"[39m
-          [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
-        [36m/>[39m
-        [36m<div[39m
-          [33maria-label[39m=[32m"Notifications-top-left"[39m
-          [33maria-live[39m=[32m"polite"[39m
-          [33mid[39m=[32m"chakra-toast-manager-top-left"[39m
-          [33mrole[39m=[32m"region"[39m
-          [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
-        [36m/>[39m
-        [36m<div[39m
-          [33maria-label[39m=[32m"Notifications-top-right"[39m
-          [33maria-live[39m=[32m"polite"[39m
-          [33mid[39m=[32m"chakra-toast-manager-top-right"[39m
-          [33mrole[39m=[32m"region"[39m
-          [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
-        [36m/>[39m
-        [36m<div[39m
-          [33maria-label[39m=[32m"Notifications-bottom-left"[39m
-          [33maria-live[39m=[32m"polite"[39m
-          [33mid[39m=[32m"chakra-toast-manager-bottom-left"[39m
-          [33mrole[39m=[32m"region"[39m
-          [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
-        [36m/>[39m
-        [36m<div[39m
-          [33maria-label[39m=[32m"Notifications-bottom"[39m
-          [33maria-live[39m=[32m"polite"[39m
-          [33mid[39m=[32m"chakra-toast-manager-bottom"[39m
-          [33mrole[39m=[32m"region"[39m
-          [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
-        [36m/>[39m
-        [36m<div[39m
-          [33maria-label[39m=[32m"Notifications-bottom-right"[39m
-          [33maria-live[39m=[32m"polite"[39m
-          [33mid[39m=[32m"chakra-toast-manager-bottom-right"[39m
-          [33mrole[39m=[32m"region"[39m
-          [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
-        [36m/>[39m
-      [36m</div>[39m
-      [36m<div[39m
-        [33mclass[39m=[32m"chakra-portal"[39m
-      [36m>[39m
-        [36m<div[39m
-          [33maria-label[39m=[32m"Notifications-top"[39m
-          [33maria-live[39m=[32m"polite"[39m
-          [33mid[39m=[32m"chakra-toast-manager-top"[39m
-          [33mrole[39m=[32m"region"[39m
-          [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
-        [36m/>[39m
-        [36m<div[39m
-          [33maria-label[39m=[32m"Notifications-top-left"[39m
-          [33maria-live[39m=[32m"polite"[39m
-          [33mid[39m=[32m"chakra-toast-manager-top-left"[39m
-          [33mrole[39m=[32m"region"[39m
-          [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
-        [36m/>[39m
-        [36m<div[39m
-          [33maria-label[39m=[32m"Notifications-top-right"[39m
-          [33maria-live[39m=[32m"polite"[39m
-          [33mid[39m=[32m"chakra-toast-manager-top-right"[39m
-          [33mrole[39m=[32m"region"[39m
-          [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
-        [36m/>[39m
-        [36m<div[39m
-          [33maria-label[39m=[32m"Notifications-bottom-left"[39m
-          [33maria-live[39m=[32m"polite"[39m
-          [33mid[39m=[32m"chakra-toast-manager-bottom-left"[39m
-          [33mrole[39m=[32m"region"[39m
-          [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
-        [36m/>[39m
-        [36m<div[39m
-          [33maria-label[39m=[32m"Notifications-bottom"[39m
-          [33maria-live[39m=[32m"polite"[39m
-          [33mid[39m=[32m"chakra-toast-manager-bottom"[39m
-          [33mrole[39m=[32m"region"[39m
-          [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
-        [36m/>[39m
-        [36m<div[39m
-          [33maria-label[39m=[32m"Notifications-bottom-right"[39m
-          [33maria-live[39m=[32m"polite"[39m
-          [33mid[39m=[32m"chakra-toast-manager-bottom-right"[39m
-          [33mrole[39m=[32m"region"[39m
-          [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
-        [36m/>[39m
-      [36m</div>[39m
-    [36m</body>[39m
-
-       6 | test("renders learn react link", () => {
-       7 |   render(<App />)
-    >  8 |   const linkElement = screen.getByText(/learn chakra/i)
-         |                              ^
-       9 |   expect(linkElement).toBeInTheDocument()
-      10 | })
-      11 |
-
-      at Object.getElementError (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/config.js:37:19)
-      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
-      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
-      at getByText (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
-      at Object.<anonymous> (src/App.test.tsx:8:30)
-      at TestScheduler.scheduleTests (node_modules/@jest/core/build/TestScheduler.js:333:13)
-      at runJest (node_modules/@jest/core/build/runJest.js:404:19)
-      at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
-      at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
-
-------------------------|---------|----------|---------|---------|-------------------
-File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
-------------------------|---------|----------|---------|---------|-------------------
-All files               |      20 |     2.38 |   23.07 |   20.27 |                   
- src                    |   18.91 |     2.38 |      20 |   19.17 |                   
-  App.tsx               |     100 |      100 |     100 |     100 |                   
-  ColorModeSwitcher.tsx |     100 |      100 |     100 |     100 |                   
-  Logo.tsx              |       0 |        0 |       0 |       0 | 11-23             
-  ShowSolution.tsx      |      75 |       50 |      50 |      75 | 11                
-  index.tsx             |       0 |        0 |     100 |       0 | 9-28              
-  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
-  serviceWorker.ts      |       0 |        0 |       0 |       0 | 13-143            
-  test-utils.tsx        |     100 |      100 |     100 |     100 |                   
- src/Homescreen         |     100 |      100 |     100 |     100 |                   
-  Homescreen.tsx        |     100 |      100 |     100 |     100 |                   
-------------------------|---------|----------|---------|---------|-------------------
-Test Suites: 1 failed, 1 total
-Tests:       1 failed, 1 total
-Snapshots:   0 total
-Time:        2.985 s
-Ran all test suites.
+TypeError: window.loadPyodide is not a function
+    at /home/runner/work/henhacks24/henhacks24/src/PythonRunner.tsx:1167:49
+    at /home/runner/work/henhacks24/henhacks24/src/PythonRunner.tsx:1181:7
+    at commitHookEffectListMount (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
+    at commitPassiveMountOnFiber (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
+    at commitPassiveMountEffects_complete (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
+    at commitPassiveMountEffects_begin (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:24878:7)
+    at commitPassiveMountEffects (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:24866:3)
+    at flushPassiveEffectsImpl (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:27039:3)
+    at flushPassiveEffects (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:26984:14)
+    at performSyncWorkOnRoot (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:26076:3)
+    at flushSyncCallbacks (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:12042:22)
+    at commitRootImpl (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:26959:3)
+    at commitRoot (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:26682:5)
+    at finishConcurrentRender (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:25981:9)
+    at performConcurrentWorkOnRoot (/home/runner/work/henhacks24/henhacks24/node_modules/react-dom/cjs/react-dom.development.js:25809:7)
+    at flushActQueue (/home/runner/work/henhacks24/henhacks24/node_modules/react/cjs/react.development.js:2667:24)
+    at act (/home/runner/work/henhacks24/henhacks24/node_modules/react/cjs/react.development.js:2582:11)
+    at /home/runner/work/henhacks24/henhacks24/node_modules/@testing-library/react/dist/act-compat.js:63:25
+    at renderRoot (/home/runner/work/henhacks24/henhacks24/node_modules/@testing-library/react/dist/pure.js:159:26)
+    at render (/home/runner/work/henhacks24/henhacks24/node_modules/@testing-library/react/dist/pure.js:246:10)
+    at customRender (/home/runner/work/henhacks24/henhacks24/src/test-utils.tsx:198:12)
+    at Object.<anonymous> (/home/runner/work/henhacks24/henhacks24/src/App.test.tsx:7:9)
+    at Promise.then.completed (/home/runner/work/henhacks24/henhacks24/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/home/runner/work/henhacks24/henhacks24/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/home/runner/work/henhacks24/henhacks24/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/home/runner/work/henhacks24/henhacks24/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/runner/work/henhacks24/henhacks24/node_modules/jest-circus/build/run.js:66:9)
+    at run (/home/runner/work/henhacks24/henhacks24/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/runner/work/henhacks24/henhacks24/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/home/runner/work/henhacks24/henhacks24/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/home/runner/work/henhacks24/henhacks24/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/home/runner/work/henhacks24/henhacks24/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/home/runner/work/henhacks24/henhacks24/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/home/runner/work/henhacks24/henhacks24/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/home/runner/work/henhacks24/henhacks24/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/home/runner/work/henhacks24/henhacks24/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/home/runner/work/henhacks24/henhacks24/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/home/runner/work/henhacks24/henhacks24/node_modules/jest-cli/build/cli/index.js:155:37)
