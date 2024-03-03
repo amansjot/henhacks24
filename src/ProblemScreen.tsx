@@ -37,7 +37,6 @@ const ProblemScreen: React.FC = () => {
           </Box>
         </HStack>
         <Stack p="5" pb="10">
-          <ShowSolution></ShowSolution>
         </Stack>
       </VStack>
     </div>
