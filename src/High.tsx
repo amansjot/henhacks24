@@ -6,13 +6,16 @@ import {
   Image,
   Box,
   Stack,
+  Button,
 } from "@chakra-ui/react";
-import ShowSolution from "./ShowSolution";
 import PythonRunner from "./PythonRunner";
-import "./Homescreen.css";
-import {Link} from 'react-scroll';
 
-const ProblemScreen: React.FC = () => {
+const High: React.FC = () => {
+    const [revealed, setReveal] = React.useState<boolean>(false);
+    
+    function flipReveal(): void {
+        setReveal(!revealed);
+    }
   return (
     <div>
       <VStack mt="90px" spacing={8}>
@@ -29,7 +32,7 @@ const ProblemScreen: React.FC = () => {
               m="0 auto"
               height="500px"
               p="20px"
-              src="images/addition.png"
+              src="images/high.png"
               alt="Problem"
             />
           </Box>
@@ -39,11 +42,22 @@ const ProblemScreen: React.FC = () => {
           </Box>
         </HStack>
         <Stack p="5" pb="10">
-          <ShowSolution></ShowSolution>
+        <div>
+        <Button onClick={flipReveal}>Show Solution</Button>
+            {revealed && <div>
+                <Image
+              m="0 auto"
+              width="500px"
+              p="20px"
+              src="images/high_answer.png"
+              alt="Problem"
+            />
+                </div>}
+        </div>
         </Stack>
       </VStack>
     </div>
   );
 };
 
-export default ProblemScreen;
+export default High;
